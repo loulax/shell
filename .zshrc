@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="dallas"
+ZSH_THEME="trapd00r"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,7 +105,10 @@ alias apr="apt -y autoremove --purge"
 alias upsys="apu && apt -y full-upgrade"
 alias systart="systemctl start"
 alias systatus="systemctl status"
+alias sysload="systemctl reload"
 alias systop="systemctl stop"
 alias snapi="snap install"
 alias snapr="snap remove"
 alias py3="python3"
+alias edit_rules="nano /etc/init.d/iptables.sh"
+alias ls="ls -alht --color=auto"
